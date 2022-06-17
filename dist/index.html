@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="WEATHER APP" content="width=device-width, initial-scale=1.0">
+	<title>WEATHER APP</title>
+	<script src="main.js" defer></script>
+</head>
+<body>
+
+	<div id="search-bar-box">
+		<input id="search-input-bar" type="text" placeholder="City Name">
+	</div>
+
+	<div id="search-button-box">
+		<button id="search-button">Search</button>
+	</div>
+
+	<div id="weather-box">
+		<div id="city-name"></div>
+		<div id="temperature">
+			<div id="current-temperature-box">
+				<div class="text">Current Temperature:</div>
+				<div id="current-temperature"></div>
+			</div>
+			<div id="max-min-temperature-box">
+				<div id="max-temperature-box">
+					<div class="text">Max Temperature:</div>
+					<div id="max-temperature" class="sub-temperature"></div>
+				</div>
+				<div id="min-temperature-box">
+					<div class="text">Min Temperature</div>
+					<div id="min-temperature" class="sub-temperature"></div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="weather">
+			<div id="weather-information"></div>
+			<div id="weather-description"></div>
+		</div>
+	</div>
+</body>
+</html>
